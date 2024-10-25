@@ -1,0 +1,62 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+debug/
+release/
+logs/
+
+# Visual Studio specific files
+.vs/
+
+# MSTest test Results
+TestResults/
+BuildLog.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# ReSharper and Rider
+_ReSharper*/
+.idea/
+*.DotSettings.user
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Coverlet and other Code Coverage Tools
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+# Others
+Thumbs.db
+*.log
+*.tmp
+*.cache
+__pycache__/
+*.pdb
+*.ipdb
+*.pidb
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json

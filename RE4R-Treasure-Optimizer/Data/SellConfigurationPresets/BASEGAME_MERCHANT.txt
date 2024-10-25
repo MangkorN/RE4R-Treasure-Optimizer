@@ -1,0 +1,20 @@
+Butterfly Lamp/37800/0/0/3/0/0/0
+Butterfly Lamp/37800/0/0/3/0/0/0
+Chalice of Atonement/47600/0/0/0/0/0/3
+Chalice of Atonement/35000/0/0/0/0/3/0
+Elegant Bangle/15600/0/2/0/0/0/0
+Elegant Bangle/15600/0/2/0/0/0/0
+Elegant Crown/100000/0/1/1/1/1/1
+Elegant Crown/100000/0/1/1/1/1/1
+Elegant Mask/36400/0/0/3/0/0/0
+Elegant Mask/23800/0/3/0/0/0/0
+Extravagant Clock/25200/1/0/0/0/0/1
+Extravagant Clock/25200/1/0/0/0/0/1
+Flagon/14400/0/2/0/0/0/0
+Flagon/14400/0/2/0/0/0/0
+Golden Lynx/42000/2/0/0/0/0/1
+Golden Lynx/40300/0/1/1/1/0/0
+Ornate Necklace/59500/2/0/0/0/0/2
+Ornate Necklace/59200/0/1/1/0/1/1
+Splendid Bangle/19200/0/0/0/0/2/0
+Splendid Bangle/19200/0/0/0/0/2/0

@@ -1,0 +1,10 @@
+Butterfly Lamp/37800/0/0/3/0/0/0
+Butterfly Lamp/28800/0/1/2/0/0/0
+Butterfly Lamp/27600/1/0/2/0/0/0
+Butterfly Lamp/26000/1/1/1/0/0/0
+Butterfly Lamp/25200/0/3/0/0/0/0
+Butterfly Lamp/25200/0/2/1/0/0/0
+Butterfly Lamp/22800/2/0/1/0/0/0
+Butterfly Lamp/21000/3/0/0/0/0/0
+Butterfly Lamp/20400/1/2/0/0/0/0
+Butterfly Lamp/19200/2/1/0/0/0/0

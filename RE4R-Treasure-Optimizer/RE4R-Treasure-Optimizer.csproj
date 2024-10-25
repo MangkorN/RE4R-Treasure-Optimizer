@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RE4R_Treasure_Optimizer</RootNamespace>
+    <AssemblyName>RE4R-Treasure-Optimizer</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\SellConfigurationPresets\BASEGAME.txt" />
+    <None Remove="Data\SellConfigurationPresets\BASEGAME_DLC.txt" />
+    <None Remove="Data\SellConfigurationPresets\BASEGAME_MERCHANT.txt" />
+    <None Remove="Data\SellConfigurationPresets\BASEGAME_MERCHANT_DLC.txt" />
+    <None Remove="Data\TreasureCombinations\BUTTERFLY_LAMP.txt" />
+    <None Remove="Data\TreasureCombinations\CHALICE_OF_ATONEMENT.txt" />
+    <None Remove="Data\TreasureCombinations\ELEGANT_BANGLE.txt" />
+    <None Remove="Data\TreasureCombinations\ELEGANT_CROWN.txt" />
+    <None Remove="Data\TreasureCombinations\ELEGANT_MASK.txt" />
+    <None Remove="Data\TreasureCombinations\EXTRAVAGANT_CLOCK.txt" />
+    <None Remove="Data\TreasureCombinations\FLAGON.txt" />
+    <None Remove="Data\TreasureCombinations\GOLDEN_LYNX.txt" />
+    <None Remove="Data\TreasureCombinations\ORNATE_NECKLACE.txt" />
+    <None Remove="Data\TreasureCombinations\SPLENDID_BANGLE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\SellConfigurationPresets\BASEGAME.txt" />
+    <EmbeddedResource Include="Data\SellConfigurationPresets\BASEGAME_DLC.txt" />
+    <EmbeddedResource Include="Data\SellConfigurationPresets\BASEGAME_MERCHANT.txt" />
+    <EmbeddedResource Include="Data\SellConfigurationPresets\BASEGAME_MERCHANT_DLC.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\BUTTERFLY_LAMP.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\CHALICE_OF_ATONEMENT.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\ELEGANT_BANGLE.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\ELEGANT_CROWN.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\ELEGANT_MASK.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\EXTRAVAGANT_CLOCK.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\FLAGON.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\GOLDEN_LYNX.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\ORNATE_NECKLACE.txt" />
+    <EmbeddedResource Include="Data\TreasureCombinations\SPLENDID_BANGLE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.OrTools" Version="9.11.4210" />
+  </ItemGroup>
+
+</Project>
