@@ -82,7 +82,7 @@ You can build the application as a self-contained executable for different platf
     Navigate to the publish directory:
 
     ```bash
-    cd bin/Release/net6.0/{RID}/publish/
+    cd RE4R-Treasure-Optimizer/bin/Release/net6.0/{RID}/publish/
     ```
 
     - **On Windows**:
