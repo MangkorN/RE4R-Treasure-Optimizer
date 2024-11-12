@@ -20,7 +20,7 @@
             { ELEGANT_BANGLE, new[] { ELEGANT_BANGLE, ELEGANT_BANGLE.ToLower(), "eb", "elegantbangle" } },
             { ELEGANT_CROWN, new[] { ELEGANT_CROWN, ELEGANT_CROWN.ToLower(), "ec", "elegantcrown" } },
             { ELEGANT_MASK, new[] { ELEGANT_MASK, ELEGANT_MASK.ToLower(), "em", "elegantmask" } },
-            { EXTRAVAGANT_CLOCK, new[] { EXTRAVAGANT_CLOCK, EXTRAVAGANT_CLOCK.ToLower(), "ec", "extravagantclock" } },
+            { EXTRAVAGANT_CLOCK, new[] { EXTRAVAGANT_CLOCK, EXTRAVAGANT_CLOCK.ToLower(), "exc", "extravagantclock" } },
             { FLAGON, new[] { FLAGON, FLAGON.ToLower(), "f" } },
             { GOLDEN_LYNX, new[] { GOLDEN_LYNX, GOLDEN_LYNX.ToLower(), "gl", "goldenlynx" } },
             { ORNATE_NECKLACE, new[] { ORNATE_NECKLACE, ORNATE_NECKLACE.ToLower(), "on", "ornatenecklace" } },

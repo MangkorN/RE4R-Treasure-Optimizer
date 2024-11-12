@@ -13,7 +13,7 @@
         {
             { RUBY, new[] { RUBY, RUBY.ToLower(), "r" } },
             { SAPPHIRE, new[] { SAPPHIRE, SAPPHIRE.ToLower(), "s" } },
-            { YELLOW_DIAMOND, new[] { YELLOW_DIAMOND, YELLOW_DIAMOND.ToLower(), "y", "yellowdiamond", "yellowDiamond" } },
+            { YELLOW_DIAMOND, new[] { YELLOW_DIAMOND, YELLOW_DIAMOND.ToLower(), "y", "yd", "yellowdiamond", "yellowDiamond" } },
             { EMERALD, new[] { EMERALD, EMERALD.ToLower(), "e" } },
             { ALEXANDRITE, new[] { ALEXANDRITE, ALEXANDRITE.ToLower(), "a" } },
             { RED_BERYL, new[] { RED_BERYL, RED_BERYL.ToLower(), "rb", "redberyl", "redBeryl" } }
