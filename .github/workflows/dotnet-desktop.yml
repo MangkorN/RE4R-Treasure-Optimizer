@@ -33,10 +33,20 @@ jobs:
     - name: Publish Application
       run: dotnet publish RE4R-Treasure-Optimizer -c Release -r ${{ matrix.rid }} --self-contained true -p:PublishSingleFile=true
 
-    - name: Archive Build
+    - name: Archive Build (Windows)
+      if: runner.os == 'Windows'
+      run: |
+        New-Item -ItemType Directory -Force -Path artifacts
+        Compress-Archive -Path "RE4R-Treasure-Optimizer\bin\Release\net6.0\${{ matrix.rid }}\publish\*" -DestinationPath "artifacts\${{ matrix.artifact_name }}.zip"
+      shell: pwsh
+
+    - name: Archive Build (Linux and macOS)
+      if: runner.os != 'Windows'
       run: |
         mkdir -p artifacts
         zip -j artifacts/${{ matrix.artifact_name }}.zip RE4R-Treasure-Optimizer/bin/Release/net6.0/${{ matrix.rid }}/publish/*
+      shell: bash
+
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
